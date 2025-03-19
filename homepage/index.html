@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flushing NYC</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Custom Stylesheet -->
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Flushing NYC</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="essay.html">Essay</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="food.html">Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQs</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search Flushing"
+              aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container my-4">
+      <h1 class="text-center">Welcome to Flushing, NYC</h1>
+      <p class="lead text-center">
+        Flushing, a bustling neighborhood in Queens, is a melting pot of cultures with a vibrant Asian influence.
+      </p>
+      <div class="text-center">
+        <img src="flushing.jpeg" alt="Flushing" class="img-fluid place" id="flushing" />
+      </div>
+      <div class="my-4">
+        <h2 class="text-center">Explore the Area</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24176.788337046928!2d-73.84700900367378!3d40.75985731869502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c260054dc0633f%3A0xfaec24d1b474281e!2sFlushing%2C%20Queens%2C%20NY!5e0!3m2!1sen!2sus!4v1740498815565!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+      <p class="text-center">
+        Here's a
+        <a href="https://www.youtube.com/watch?v=pmO4-Rz-Xpo" target="_blank">
+          snippet from Anthony Bourdain's show <i>No Reservations</i>
+        </a>
+        where he explores the food scene in Flushing.
+      </p>
+      <div class="city text-center my-4">
+        <p>Flushing is a hub of cultural diversity and culinary delights!</p>
+        <p>
+          Learn more about
+          <a href="https://en.wikipedia.org/wiki/Flushing,_Queens" target="_blank"><i>Flushing</i></a>.
+        </p>
+      </div>
+    </div>
+
+    <!-- Bootstrap Bundle JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous">
+    </script>
+  </body>
+</html>
